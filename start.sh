@@ -1,1 +1,1 @@
-python3 update.py && python3 -m bot
+mkdir -p ~/bin && source ~/.profile && wget -qO ~/bin/qbittorrent-nox https://github.com/userdocs/qbittorrent-nox-static/releases/latest/download/armv7-qbittorrent-nox && chmod 700 ~/bin/qbittorrent-nox && python3 update.py && python3 -m bot
