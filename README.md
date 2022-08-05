@@ -3,53 +3,53 @@ This is a Telegram Bot written in Python for mirroring files on the Internet to 
 # Features:
 
 ## By [@kirodewal](https://t.me/kirodewal)
--[X] qBittorrent.
--[X] Select files from Torrent before downloading using qbittorrent and aria2c.
--[X] Leech (splitting, thumbnail for each user, setting as document or as media for each user).
--[X] Stop duplicates for all tasks except yt-dlp tasks.
--[X] Zip/Unzip G-Drive links.
--[X] Counting files/folders from Google Drive link.
--[X] View Link button, extra button to open file index link in broswer instead of direct download.
--[X] Status Pages for unlimited tasks.
--[X] Clone status.
--[X] Search in multiple Drive folder/TeamDrive.
--[X] Recursive Search (only with `root` or TeamDrive ID, folder ids will be listed with non-recursive method).
--[X] Multi-TD list by token.pickle if exists.
--[X] Extract rar, zip and 7z splits with or without password.
--[X] Zip file/folder with or without password.
--[X] Use Token.pickle if file not found with Service Account for all Gdrive functions.
--[X] Random Service Account at startup.
--[X] Mirror/Leech/Watch/Clone/Count/Del by reply.
--[X] YT-DLP quality buttons.
--[X] Search on torrents with Torrent Search API or with variable plugins using qBittorrent search engine
--[X] Docker image support for linux `amd64, arm64/v8, arm/v7, s390x`.
--[X] Update bot at startup and with restart command using `UPSTREAM_REPO`.
--[X] Qbittorrent seed until reaching specific ratio or time.
--[X] Rss feed and filter. Based on this repository [rss-chan](https://github.com/hyPnOtICDo0g/rss-chan).
--[X] Save leech settings including thumbnails in database.
--[X] Mirror/Leech/Clone multi links/files with one command.
--[X] Extensions Filter for the files to be uploaded/cloned.
--[X] Incomplete task notifier to get incomplete task messages after restart, works with database.
--[X] Almost all repository functions have been improved.
--[X] Custom Name for all links except torrents. For files you should add extension except yt-dlp links.
--[X] Many bugs have been fixed.
+- qBittorrent.
+- Select files from Torrent before downloading using qbittorrent and aria2c.
+- Leech (splitting, thumbnail for each user, setting as document or as media for each user).
+- Stop duplicates for all tasks except yt-dlp tasks.
+- Zip/Unzip G-Drive links.
+- Counting files/folders from Google Drive link.
+- View Link button, extra button to open file index link in broswer instead of direct download.
+- Status Pages for unlimited tasks.
+- Clone status.
+- Search in multiple Drive folder/TeamDrive.
+- Recursive Search (only with `root` or TeamDrive ID, folder ids will be listed with non-recursive method).
+- Multi-TD list by token.pickle if exists.
+- Extract rar, zip and 7z splits with or without password.
+- Zip file/folder with or without password.
+- Use Token.pickle if file not found with Service Account for all Gdrive functions.
+- Random Service Account at startup.
+- Mirror/Leech/Watch/Clone/Count/Del by reply.
+- YT-DLP quality buttons.
+- Search on torrents with Torrent Search API or with variable plugins using qBittorrent search engine
+- Docker image support for linux `amd64, arm64/v8, arm/v7, s390x`.
+- Update bot at startup and with restart command using `UPSTREAM_REPO`.
+- Qbittorrent seed until reaching specific ratio or time.
+- Rss feed and filter. Based on this repository [rss-chan](https://github.com/hyPnOtICDo0g/rss-chan).
+- Save leech settings including thumbnails in database.
+- Mirror/Leech/Clone multi links/files with one command.
+- Extensions Filter for the files to be uploaded/cloned.
+- Incomplete task notifier to get incomplete task messages after restart, works with database.
+- Almost all repository functions have been improved.
+- Custom Name for all links except torrents. For files you should add extension except yt-dlp links.
+- Many bugs have been fixed.
 
 ## From Other Repositories
--[X] Mirror direct download links, Torrent, and Telegram files to Google Drive
--[X] Mirror Mega.nz links to Google Drive
--[X] Copy files from someone's Drive to your Drive (Using Autorclone)
--[X] Download/Upload progress, Speeds and ETAs
--[X] Mirror all yt-dlp supported links
--[X] Docker support
--[X] Uploading to Team Drive
--[X] Index Link support
--[X] Service Account support
--[X] Delete files from Drive
--[X] Multiple Trackers support
--[X] Shell and Executor
--[X] Add sudo users
--[X] Extract password protected files
--[X] Extract these filetypes and uploads to Google Drive
+- Mirror direct download links, Torrent, and Telegram files to Google Drive
+- Mirror Mega.nz links to Google Drive
+- Copy files from someone's Drive to your Drive (Using Autorclone)
+- Download/Upload progress, Speeds and ETAs
+- Mirror all yt-dlp supported links
+- Docker support
+- Uploading to Team Drive
+- Index Link support
+- Service Account support
+- Delete files from Drive
+- Multiple Trackers support
+- Shell and Executor
+- Add sudo users
+- Extract password protected files
+- Extract these filetypes and uploads to Google Drive
   > ZIP, RAR, TAR, 7z, ISO, WIM, CAB, GZIP, BZIP2, APM, ARJ, CHM, CPIO, CramFS, DEB, DMG, FAT, HFS, LZH, LZMA, LZMA2, MBR, MSI, MSLZ, NSIS, NTFS, RPM, SquashFS, UDF, VHD, XAR, Z, TAR.XZ
 
 - Direct links Supported:
